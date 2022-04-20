@@ -1,0 +1,52 @@
+<%-include('layout/header') %>
+
+<table class="main" id="table-2">
+  <!-- START MAIN CONTENT AREA -->
+  <tr>
+    <td class="wrapper" id="td-3">
+      <table border="0" cellpadding="0" cellspacing="0" id="table-3">
+        <tr>
+          <td id="td-4">
+            <!-- <p id="p-1">Hi <%= name %>,</p> -->
+            <table style="max-width:400px; margin:auto; background-color:#f9f9f9; border-radius:10px; padding:20px; font-family:arial;">
+ 
+            </tr>
+                  <tr>
+                    <td style="width: 100%; text-align:center; margin-bottom:20px;">
+                      <img src="http://3.7.83.168:3060/assets/img/logo-black.png" style="width:150px; margin:auto; margin-bottom:15px;"/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <% if (verified ==1) { %>
+                    <td style="width: 100%; text-align:center; font-size:24px;padding: 15px 0; font-weight:normal;">
+                      Your email has been verified successfully.
+                    </td>
+                  </tr> 
+                  <tr>
+                    <%} else { %>
+                    <td style="width: 100%; text-align:center; font-size:24px;padding: 15px 0; font-weight:normal ">
+                      Your email not verified please try again.
+                    </td>
+                    <% } %>
+                  </tr>
+                
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+            <p id="p-3"></p>
+            <p id="p-3"></p>
+            <p id="p-3"></p>
+            <!-- <p id="p-4">Best Regards</p>
+            <p id="p-4"><%= siteTitle %> Team</p> -->
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+
+  <!-- END MAIN CONTENT AREA -->
+</table>
+
+<%-include('layout/footer') %>
