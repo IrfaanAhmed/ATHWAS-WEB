@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"grocery-live-user-service.carts"}],"uuid":"7da87411c84a444ea1a4022095e3bcae"}

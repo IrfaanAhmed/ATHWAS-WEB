@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"grocery-live-user-service.business_categories"},{"v":{"$numberInt":"2"},"unique":true,"key":{"name":{"$numberInt":"1"}},"name":"name_1","ns":"grocery-live-user-service.business_categories","background":true}],"uuid":"d8f7431a379144ff8fbc9eab6f4a2fa5"}
