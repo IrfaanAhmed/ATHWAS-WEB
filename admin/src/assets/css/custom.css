@@ -1,0 +1,20 @@
+.downloadcsv a span {
+  color: white !important;
+}
+canvas {
+  display: none;
+}
+
+.navbar .header-icon.notificationButton a i {
+  color: #c6cabe;
+  font-size: 20px;
+}
+
+/* 3/2/22 */
+
+.icon-cards-row .card-text {
+  height: 49px !important;
+  line-height: 19px !important;
+}
+
+/* 3/2/22 */
